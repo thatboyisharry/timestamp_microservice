@@ -1,0 +1,20 @@
+{
+  "name": "timestamp_microservice",
+  "version": "1.0.0",
+  "description": "timestamp microservice app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Harold Muchengeta",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
